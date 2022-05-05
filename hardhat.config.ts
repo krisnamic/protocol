@@ -38,6 +38,14 @@ const config: HardhatUserConfig = {
       url: `https://ropsten.infura.io/v3/${process.env.INFURA_TOKEN}`,
       accounts: { mnemonic }
     },
+    polygon: {
+      url: `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_TOKEN}`,
+      accounts: { mnemonic }
+    },
+    mumbai: {
+      url: `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_TOKEN}`,
+      accounts: { mnemonic }
+    },
     goerli: {
       url: `https://goerli.infura.io/v3/${process.env.INFURA_TOKEN}`,
       accounts: { mnemonic }
